@@ -6,7 +6,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
         LinkedList<Task> tasks = new LinkedList<Task>();
-        // loop
+        
         Calendar dueDate1 = Calendar.getInstance();
         Calendar dueDate2 = Calendar.getInstance();
         dueDate1.set(2024, 02, 01);
